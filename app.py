@@ -4,7 +4,7 @@ from langchain.chains import LLMChain
 from langchain_openai import OpenAI
 from langchain_core.prompts import PromptTemplate
 
-openai.api_key = st.secrets["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"]
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 st.set_page_config(page_title="AI Image Generator", layout="centered")
 st.title("🎨 AI Image Generator")
